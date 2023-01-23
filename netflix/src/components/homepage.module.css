@@ -1,0 +1,27 @@
+.welcome_container{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/2156884/pexels-photo-2156884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome_container button{
+    border-radius: 7px;
+    width: 10%;
+    height: 5%;
+    box-shadow: 2px;
+}
+
+.nav{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
